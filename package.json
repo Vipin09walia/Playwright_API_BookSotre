@@ -1,0 +1,17 @@
+{
+  "name": "bookstore-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright API test framework for Bookstore FastAPI service",
+  "scripts": {
+    "test": "playwright test",
+    "test:report": "playwright test --reporter=html && npx http-server playwright-report -p 9323 -o",
+    "pw:show-report": "npx playwright show-report",
+    "format": "npx prettier --write ."
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.46.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.2"
+  }
+}
