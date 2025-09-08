@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Bookstore API - Playwright Tests
 
 API testing framework using **Playwright Test** for the FastAPI Bookstore service.
@@ -56,3 +57,6 @@ bookstore-tests/
 ## Notes
 - The tests are tolerant to minor response differences (e.g., 200/201, field names like `access_token`/`token`). Adjust assertions if your API returns different shapes.
 - For CI, export `API_BASE_URL` and run `npx playwright test` in your pipeline.
+=======
+# Playwright_API_BookSotre
+>>>>>>> 25b78bff57464403b82979ae60eebd52fcbd74eb
